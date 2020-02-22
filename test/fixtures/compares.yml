@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  subject1: MyString
+  subject1_date: 1
+  subject2: MyString
+  subject2_date: MyString
+  integer: MyString
+  user_id: 1
+
+two:
+  title: MyString
+  subject1: MyString
+  subject1_date: 1
+  subject2: MyString
+  subject2_date: MyString
+  integer: MyString
+  user_id: 1
