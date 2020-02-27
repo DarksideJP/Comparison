@@ -1,2 +1,70 @@
 <h1>Compares#new</h1>
 <p>Find me in app/views/compares/new.html.erb</p>
+
+<%= form_for(@compare) do |f| %>
+			<h4>Title</h4>
+			<%= f.text_field :title, class:"btn-block" %>
+
+			<h4>項目1</h4>
+			<%= f.text_field :item1, class:"btn-block" %>
+
+			<h4>項目2</h4>
+			<%= f.text_field :item2, class:"btn-block" %>
+
+			<h4>項目3</h4>
+			<%= f.text_field :item3, class:"btn-block" %>
+
+			<h4>項目4</h4>
+			<%= f.text_field :item4, class:"btn-block" %>
+
+			<h4>項目5</h4>
+			<%= f.text_field :item5, class:"btn-block" %>
+
+			<h4>項目6</h4>
+			<%= f.text_field :item6, class:"btn-block" %>
+
+			<h4>subject1</h4>
+			<%= f.text_field :subject1, class:"btn-block" %>
+
+			<h4>data1</h4>
+			<%= f.select :sub1_data1,[["★","1"],["★★","2"],["★★★","3"],["★★★★","4"],["★★★★★","5"]] %>
+
+			<h4>data2</h4>
+			<%= f.select :sub1_data2,[["★","1"],["★★","2"],["★★★","3"],["★★★★","4"],["★★★★★","5"]] %>
+
+			<h4>data3</h4>
+			<%= f.select :sub1_data3,[["★","1"],["★★","2"],["★★★","3"],["★★★★","4"],["★★★★★","5"]] %>
+
+			<h4>data4</h4>
+			<%= f.select :sub1_data4,[["★","1"],["★★","2"],["★★★","3"],["★★★★","4"],["★★★★★","5"]] %>
+
+			<h4>data5</h4>
+			<%= f.select :sub1_data5,[["★","1"],["★★","2"],["★★★","3"],["★★★★","4"],["★★★★★","5"]] %>
+
+			<h4>data6</h4>
+			<%= f.select :sub1_data6,[["★","1"],["★★","2"],["★★★","3"],["★★★★","4"],["★★★★★","5"]] %>
+
+			<h4>subject2</h4>
+			<%= f.text_field :subject2, class:"btn-block" %>
+
+			<h4>data1</h4>
+			<%= f.select :sub2_data1,[["★","1"],["★★","2"],["★★★","3"],["★★★★","4"],["★★★★★","5"]] %>
+
+			<h4>data2</h4>
+			<%= f.select :sub2_data2,[["★","1"],["★★","2"],["★★★","3"],["★★★★","4"],["★★★★★","5"]] %>
+
+			<h4>data3</h4>
+			<%= f.select :sub2_data3,[["★","1"],["★★","2"],["★★★","3"],["★★★★","4"],["★★★★★","5"]] %>
+
+			<h4>data4</h4>
+			<%= f.select :sub2_data4,[["★","1"],["★★","2"],["★★★","3"],["★★★★","4"],["★★★★★","5"]] %>
+
+			<h4>data5</h4>
+			<%= f.select :sub2_data5,[["★","1"],["★★","2"],["★★★","3"],["★★★★","4"],["★★★★★","5"]] %>
+
+			<h4>data6</h4>
+			<%= f.select :sub2_data6,[["★","1"],["★★","2"],["★★★","3"],["★★★★","4"],["★★★★★","5"]] %>
+
+
+			<%= f.submit "Create Compare", class:"btn btn-primary btn-block" %>
+			<% end %>
